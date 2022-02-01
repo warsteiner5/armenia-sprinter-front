@@ -1,0 +1,52 @@
+.wrap__container{
+    background-color:#211E1D;
+    height: 100vh;
+    overflow: hidden;
+}
+.title{
+    font-family: 'Alumni' 'Sans';
+    font-weight: normal;
+    font-weight: 600;
+    font-size: 125px;
+    line-height: 106px;
+    color: #fff;
+    margin-top: 15%;
+}
+.sabtitle{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    margin-top: 20px;
+}
+.row{
+    margin-top: 35%;
+    .col{
+        h5{
+            color: #fff;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        ul{
+            margin-top: 27px;
+            padding-left: 0;
+          li{
+              list-style: none; 
+              margin-top: 20px;
+              
+
+              a{
+                
+                text-decoration: none;
+                color: rgba(255, 255, 255, .7);  
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+              }
+          }
+        }
+    }
+}
+

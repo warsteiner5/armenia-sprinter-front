@@ -1,0 +1,108 @@
+.container{
+    background-color: #F8F5F2;
+    margin-top: 50px;
+    .row{
+        padding-top: 50px;
+        padding-right: 50px;
+            .description{
+                margin-left: 50px;
+                .description__title{
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 29px;
+                }
+                .description__peoples{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                        img{
+                            width: 24px;
+                            height: 24px;
+                        }
+                }
+                .description__car{
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #746E6A;
+                }
+            }
+            .photo{
+                display: block;
+            }
+            .wrap{
+              display: flex;
+              justify-content: space-between;
+                .direction{
+                    display: flex;
+                    align-items: baseline;
+                    justify-content: space-between;
+                    .direction__from{
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 22px;
+                        margin-right: 30px;
+                    }
+                    .direction__arow{
+                        height: 12px;
+                        width: 15px;
+                        margin-right: 30px;
+                    }
+                    .direction__to{
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+            }
+            .price{
+                display: flex;
+                flex-direction: column;
+                .price__amd{
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    margin: 0;
+                }
+                .price__ru{
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #746E6A;
+                    margin: 0;
+                }
+
+            }
+                .header__btn{
+                width: 130px;
+                height: 40px;
+                background: rgba(226, 30, 50, 1);
+                color: #fff;
+                border-radius: 4px;
+                text-decoration: none;
+                text-transform: uppercase;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                }
+            }
+            
+
+
+    
+    }
+    .all__arow{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color:#000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}  
+ul{
+    padding: 0;
+    li{
+    list-style: none;
+}
+}  
+

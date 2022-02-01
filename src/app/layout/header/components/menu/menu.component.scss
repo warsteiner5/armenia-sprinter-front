@@ -1,0 +1,32 @@
+.nav {
+    align-items: flex-end;
+    .logo{
+        .logo__subtitle{
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 85%;
+            color: #947A64;
+        }
+        .logo__title{
+            font-weight: bold;
+            font-size: 38px;
+            line-height: 85%;
+            color: #947A64;
+        }
+    }
+
+    .nav-item {
+        display: flex;
+        .item {
+            list-style: none;
+            margin-right: 45px;
+            font-weight: 500;
+            font-size: 18px;
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}
+
