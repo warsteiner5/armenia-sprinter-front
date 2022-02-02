@@ -10,6 +10,8 @@ import { ModalCardComponent } from './components/modal-card/modal-card.component
 import { CardMiniBusComponent } from './components/card-mini-bus/card-mini-bus.component';
 import { CardMicroBusComponent } from './components/card-micro-bus/card-micro-bus.component';
 import { CardBigBusComponent } from './components/card-big-bus/card-big-bus.component';
+import { MobCartCloseComponent } from './components/mob-cart-close/mob-cart-close.component';
+
 
 
 
@@ -25,6 +27,8 @@ import { CardBigBusComponent } from './components/card-big-bus/card-big-bus.comp
     CardMiniBusComponent,
     CardMicroBusComponent,
     CardBigBusComponent,
+    MobCartCloseComponent,
+    
   ],
   imports: [
     CommonModule

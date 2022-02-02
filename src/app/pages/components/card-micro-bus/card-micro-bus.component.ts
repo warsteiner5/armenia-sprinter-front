@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardMicroBusComponent implements OnInit {
 
+  PortFrom:string = 'Киев';
+  PortTo:string = 'Дикий запад';
+  ticketPrice:number = 16800;
+  ticketPriceRus:number = 7000;
+  
+  ticket:string[] | any;
+
   constructor() { }
 
   ngOnInit(): void {

@@ -1,0 +1,100 @@
+.container{
+    width: 290px;
+    height: 163px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #F8F5F2;
+    border-radius: 12px;
+    .row{
+        flex-wrap: nowrap;
+        img{
+            width: 100px;
+            height: 46px;
+        }
+        .text{
+            .avto{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #1E2125;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+             }
+            .model__car{
+                margin-left: 10px;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                color: rgba(116, 110, 106, 1);
+            }
+            .people{
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: #1E2125;
+            }
+        }
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1E2125;
+    }
+    .wrap{
+        .direction{
+            display: flex;
+            align-items: baseline;
+            .direction__from{
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                color: #1E2125;
+            }
+            .direction__arow{
+                width: 9px;
+                height: 8px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .direction__to{
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                color: #1E2125;
+            }
+        }
+        .price{
+            .price__amd{
+                margin: 0;
+                padding: 0;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            .price__ru{
+                margin: 0;
+                padding: 0;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                color: #746E6A;
+            }
+        }
+    }
+}
+ul{
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+}

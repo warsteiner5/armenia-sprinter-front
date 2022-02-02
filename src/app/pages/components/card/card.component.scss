@@ -33,10 +33,11 @@
             .wrap{
               display: flex;
               justify-content: space-between;
-                .direction{
+                .direction{            
                     display: flex;
                     align-items: baseline;
-                    justify-content: space-between;
+                    justify-content: flex-start;
+                    width: 330px;
                     .direction__from{
                         font-weight: normal;
                         font-size: 18px;
@@ -54,6 +55,7 @@
                         line-height: 22px;
                     }
             }
+            
             .price{
                 display: flex;
                 flex-direction: column;

@@ -36,7 +36,8 @@
                 .direction{
                     display: flex;
                     align-items: baseline;
-                    justify-content: space-between;
+                    justify-content: flex-start;
+                    width: 330px;
                     .direction__from{
                         font-weight: normal;
                         font-size: 18px;

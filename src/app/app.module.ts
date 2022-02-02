@@ -20,6 +20,8 @@ import {TransferComponent} from "./pages/transfer/transfer.component";
 import { CardMiniBusComponent } from './pages/components/card-mini-bus/card-mini-bus.component';
 import { CardMicroBusComponent } from './pages/components/card-micro-bus/card-micro-bus.component';
 import { CardBigBusComponent } from './pages/components/card-big-bus/card-big-bus.component';
+import { MobCartCloseComponent } from './pages/components/mob-cart-close/mob-cart-close.component';
+
 
   const appRoutes: Routes = [
     {path: '', component: Frame1Component },
@@ -45,7 +47,9 @@ import { CardBigBusComponent } from './pages/components/card-big-bus/card-big-bu
     TransferComponent,
     CardMiniBusComponent,
     CardMicroBusComponent,
-    CardBigBusComponent
+    CardBigBusComponent,
+    MobCartCloseComponent
+    
   ],
   imports: [
     BrowserModule,

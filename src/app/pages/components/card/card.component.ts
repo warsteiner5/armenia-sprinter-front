@@ -11,14 +11,14 @@ export class CardComponent implements OnInit {
   PortTo:string = 'Аэропорт «Звартноц»';
   ticketPrice:number = 15000;
   ticketPriceRus:number = 2323;
-  
   ticket:string[] | any;
+  
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+}
     
-  }
   
 
-}
+
